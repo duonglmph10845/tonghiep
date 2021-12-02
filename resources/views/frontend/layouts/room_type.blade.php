@@ -48,7 +48,6 @@ h2.textct:hover{
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
-    color: #CF9D6;
 }
 span.unit{
     font-size: .875rem;
@@ -60,7 +59,6 @@ span.unit{
 }
 h3.price-detail span {
     margin: 10px;
-}
 }
 </style>  
 

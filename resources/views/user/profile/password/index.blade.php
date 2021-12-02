@@ -24,7 +24,7 @@
 							<img alt="User Avatar" class="rounded-circle mr-3" src="{{ asset('frontend_assets/img/avatar.jpg') }}">
 						</div>
 						<h4 class="mb-1 mt-4 font-weight-bold fs-16">{{ auth()->user()->full_name }}</h4>
-						<h6 class="text-muted fs-12">{{ __('Last Profile Update') }}: {{ auth()->user()->updated_at->diffForHumans() }}</h6>
+						<h6 class="text-muted fs-12">{{ __('Cập nhật hồ sơ lần cuối') }}: {{ auth()->user()->updated_at->diffForHumans() }}</h6>
 					</div>
 					<form method="POST" action="" enctype="multipart/form-data">
 
